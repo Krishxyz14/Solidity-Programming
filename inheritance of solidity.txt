@@ -35,7 +35,7 @@ contract B is A{   // contract A is parent of contract B
  }
  }
  contract C is B{
-     function fun4() public pure override returns(string memory)
+     function fun4() public pure override returns(string memory)// override is used to change
  {
      return "I am in contract C";
  }
